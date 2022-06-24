@@ -2,10 +2,10 @@ import { Container, Card, ListGroup } from "react-bootstrap";
 
 function Main() {
     return (
-        <div className="m-3">
+        <div className="m-5">
             <Container>
                 <Card border="dark">
-                    <Card.Header><b>EcryptedNotes</b> - сервис для обмена заметками. Создайте заметку, отправте ссылку на заметку и ваш знакомый сможет посмотреть ее.</Card.Header>
+                    <Card.Header style={{"fontSize":"18px"}}><b>EcryptedNotes</b> - сервис для обмена заметками. Создайте заметку, отправте ссылку на заметку и ваш знакомый сможет посмотреть ее.</Card.Header>
                     <Card.Body>
                         <Card.Title>Как создать заметку?</Card.Title>
                         <Card.Text as="div">
